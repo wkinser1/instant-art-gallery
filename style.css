@@ -1,0 +1,133 @@
+* {
+  box-sizing:border-box
+}
+
+body {
+ background: url("https://cdn.glitch.com/e4c38c36-1c46-440b-8d32-2d830df9b2da%2Fthumbnails%2Fvintage-concrete.png?1529617741667");
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25em;
+  margin:0;
+  padding:0;
+}
+
+article {
+  padding:2em;
+}
+
+#gallery {
+  background-color: #777;
+/*   filter: alpha;  */
+  min-height:350px;
+/*   display:flex; */
+/*   justify-content: center; */
+  text-align: center;
+/*   padding: 1vmin 0; */
+  width: 100%;
+  border:solid 1vmin #555;
+  border-radius: 20px;
+  box-shadow: 18px 21px 72px -1px rgba(0,0,0,0.7);
+}
+
+#gallery img {
+  vertical-align: text-top;
+  background-color:#ddc;
+  max-width: 20%;
+  min-width: 250px;
+  height: auto;
+  border:solid 3vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:2px;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow: 18px 21px 72px -1px rgba(0,0,0,0.7);
+/*   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25); */
+  margin:2vh 2vw;
+  padding: 4vmin;
+  box-sizing:border-box;
+  display:inline-block;
+/*   position:relative; */
+  text-align:center;
+} 
+
+#gallery img:hover{
+  transition-duration: 500ms;
+  transition-property: margin-right;
+}
+
+button {
+   font-weight: bold;
+   text-transform: uppercase;
+   border-top: 1px solid #000000;
+   background: #565752;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d4cb9d), to(#565752));
+   background: -webkit-linear-gradient(top, #d4cb9d, #565752);
+   background: -moz-linear-gradient(top, #d4cb9d, #565752);
+   background: -ms-linear-gradient(top, #d4cb9d, #565752);
+   background: -o-linear-gradient(top, #d4cb9d, #565752);
+   padding: 8px 16px;
+   -webkit-border-radius: 33px;
+   -moz-border-radius: 33px;
+   border-radius: 33px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+button:hover {
+   border-top-color: #697075;
+   background: #697075;
+   color: #cfcbcf;
+   }
+button:active {
+   border-top-color: #a0afba;
+   background: #a0afba;
+   }
+
+
+/* #gallery img::before {
+    border-radius:2px;
+    bottom:-2vmin;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+    content:"";
+    left:-2vmin;
+    position:absolute;
+    right:-2vmin;
+    top:-2vmin;
+  } 
+#gallery img::after {
+    border-radius:2px;
+    bottom:-2.5vmin;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    content:"";
+    left:-2.5vmin;
+    position:absolute;
+    right:-2.5vmin;
+    top:-2.5vmin;
+  } */
+
+/* #stretchy-wrapper {
+  position: relative;
+}
+
+#stretchy-wrapper > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+} */
